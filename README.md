@@ -1,4 +1,10 @@
----
+# HFA (Hybrid Face Assembly)
+公式仕様 v0.1
+
+HFA is a state-driven, semantics-oriented assembly-like language
+that defines kaomoji and symbols as first-class instructions.
+It explicitly introduces a ZERO state, where capability exists
+but is intentionally not exercised, as part of the core specification.---
 
 HFA（Hybrid Face Assembly）
 

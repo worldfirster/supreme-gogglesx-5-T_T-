@@ -1,3 +1,10 @@
+HFA理論とは（作成者　大野実）が階層構造を前提に、
+ソフトウェアやハードウェアの設計を
+極端に簡潔な表現で扱おうとする
+個人発想のフレームワークである。
+
+2025年
+
 # HFA Documentation
 
 This directory contains formal specifications and design documents
@@ -29,9 +36,4 @@ rather than implementation complexity.
 
 HFA（Hierarchical Framework Architecture）
 
-HFA理論とは（作成者　大野実）が階層構造を前提に、
-ソフトウェアやハードウェアの設計を
-極端に簡潔な表現で扱おうとする
-個人発想のフレームワークである。
 
-2025年

@@ -4,7 +4,7 @@ HFASM をその理論に基づく実験的言語仕様として扱う。
 
 HFArc+HFASM理論（Hierarchical Framework Architecture）とは、
 顔文字や記号を第一級命令として扱う状態駆動型の実験的言語仕様
-「HFA（Hybrid Face Assembly）」と、
+「HFA（Hybrid Face Assembly、旧称：HFA）」と、
 階層構造と最小定義を重視する設計思想を包含する総称である。
 
 また、奇門遁甲と組み合わせる事で様々な分野での活躍が期待される。

@@ -1,3 +1,7 @@
+本リポジトリでは、
+HFArc を設計思想・理論体系、
+HFASM をその理論に基づく実験的言語仕様として扱う。
+
 HFArc+HFASM理論（Hierarchical Framework Architecture）とは、
 顔文字や記号を第一級命令として扱う状態駆動型の実験的言語仕様
 「HFA（Hybrid Face Assembly）」と、
@@ -40,5 +44,5 @@ where capability exists but is intentionally not exercised.
 
 HFArc+HFASM focuses on semantics, state transitions, and minimal expressive units,
 rather than implementation complexity.
-HFArc+HFASM
-（Hierarchical Framework Architecture）
+
+HFArc+HFASM (Hierarchical Framework Architecture / Hybrid Face Assembly)

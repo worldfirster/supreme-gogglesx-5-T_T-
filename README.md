@@ -1,11 +1,11 @@
-HFA理論（Hierarchical Framework Architecture）とは、
+HFArc+HFASM理論（Hierarchical Framework Architecture）とは、
 顔文字や記号を第一級命令として扱う状態駆動型の実験的言語仕様
 「HFA（Hybrid Face Assembly）」と、
 階層構造と最小定義を重視する設計思想を包含する総称である。
 
 また、奇門遁甲と組み合わせる事で様々な分野での活躍が期待される。
 
-HFA理論は、階層構造を前提に、
+HFArc+HFASM理論は、階層構造を前提に、
 ソフトウェアやハードウェアの設計を
 極端に簡潔な表現で扱おうとする
 個人発想（作成者：大野実）のフレームワークである。
@@ -14,7 +14,7 @@ HFA理論は、階層構造を前提に、
 
 ---
 
-# HFA Documentation
+# HFArc+HFASM Documentation
 
 This directory contains formal specifications and design documents for the HFA language.
 
@@ -28,17 +28,17 @@ This directory contains formal specifications and design documents for the HFA l
 
 ## Design Note
 
-HFA intentionally avoids complex templates.
+HFArc+HFASM intentionally avoids complex templates.
 Minimal definitions are preferred over exhaustive specifications.
 
 ## Overview
 
-HFA (Hybrid Face Assembly) is an experimental programming language specification
+HFArc+HFASM (Hybrid Face Assembly) is an experimental programming language specification
 that treats kaomoji and symbols as first-class instructions.
 The language is state-driven and explicitly defines a ZERO state,
 where capability exists but is intentionally not exercised.
 
-HFA focuses on semantics, state transitions, and minimal expressive units,
+HFArc+HFASM focuses on semantics, state transitions, and minimal expressive units,
 rather than implementation complexity.
-
-HFA（Hierarchical Framework Architecture）
+HFArc+HFASM
+（Hierarchical Framework Architecture）

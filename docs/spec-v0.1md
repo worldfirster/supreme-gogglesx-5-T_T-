@@ -1,20 +1,20 @@
-# HFA Specification v0.1
+# HFASM Specification v0.1
 
 ## Overview
 
-HFA (Hybrid Face Assembly) is an experimental programming language
+HFArc+HFASM (Hybrid Face Assembly) is an experimental programming language
 specification that treats kaomoji and symbols as first-class instructions.
 The language is state-driven and explicitly defines a ZERO state,
 where capability exists but is intentionally not exercised.
 
-HFA focuses on semantics, state transitions, and minimal expressive units,
+HFArc+HFASM focuses on semantics, state transitions, and minimal expressive units,
 rather than implementation complexity.
 
 ---
 
 1. 基本定義（概要 / Overview）
 
-HFAは
+HFArc+HFASMは
 顔文字・記号・時間・状態を最小要素とする
 状態駆動型・意味論アセンブリ言語である。
 

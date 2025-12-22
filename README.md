@@ -38,27 +38,35 @@ HFA/ASMrc focuses on semantics, state transitions, and minimal expressive units,
 HFA/ASMrc uses a hierarchical structure to make ultra-short commands meaningful:
 Program Level ├─ Header ├─ State Declaration (ZERO/NORMAL/OVER) └─ CodeBlock ├─ Command Category (State / Time / Control / Expression) └─ Command (Opcode + Operand)
 
-- This allows minimal commands to convey full meaning via context and hierarchy.
+- This allows minimal commands to convey full meaning via context and hierarchy.  
 - State and hierarchy automatically interpret the validity and effect of commands.
 
 ---
 
 ## Minimal Execution Example
 
-```text
-▶          # Start execution
-(・_・)    # State check
-⏳         # Time progress
-(｀・ω・´) # Request NORMAL transition
-(^^)       # Affirmation
-■          # End execution
-Each command = 1 step
-Commands obey state constraints; invalid commands are treated as no-op or warning
-Notes
-ZERO state is the initial state where abilities exist but are not exercised.
-Hierarchical structure allows short commands to convey complete meaning.
-All programs start from ZERO state.
-Complex templates and exhaustive specifications are intentionally avoided.
-Author: 大野実
-GitHub Account: worldfirster
-Specification Version: v0.1
+▶        
+# Start execution (・_・) 
+# State check ⏳     
+# Time progress (｀・ω・´) 
+# Request NORMAL transition (^^)    
+# Affirmation■       
+# End execution
+
+- Each command = 1 step  
+- Commands obey state constraints; invalid commands are treated as no-op or warning
+
+---
+
+## Notes
+
+- ZERO state is the initial state where abilities exist but are not exercised.  
+- Hierarchical structure allows short commands to convey complete meaning.  
+- All programs start from ZERO state.  
+- Complex templates and exhaustive specifications are intentionally avoided.  
+
+---
+
+**Author:** 大野実  
+**GitHub Account:** worldfirster  
+**Specification Version:** v0.1

@@ -100,13 +100,14 @@ InitialState = ZERO
 
 3.5 状態遷移規則（抽象）
 
-ZERO    --(時間/内部条件)--> NORMAL  
-NORMAL  --(過剰要求)------> OVER  
-OVER    --(不可逆帰結)----> ZERO  
+ZERO    --(時間/内部条件)--> NORMAL
+NORMAL  --(過剰要求)------> OVER
+OVER    --(不可逆帰結)----> ZERO
 
-状態遷移は暗黙または命令により発生する  
+状態遷移は暗黙または命令により発生する。
 
-すべて 人的非介入 を前提とする
+人的非介入を前提とするのは ZERO 状態のみであり、
+NORMAL および OVER ではこの制約を設けない。
 
 
 4. 命令形式（Instruction Form）

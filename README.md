@@ -43,7 +43,12 @@ Program Level ├─ Header ├─ State Declaration (ZERO/NORMAL/OVER) └─ C
 
 ## Minimal Execution Example
 
-▶          # Start execution (・_・)    # State check ⏳         # Time progress (｀・ω・´) # Request NORMAL transition (^^)       # Affirmation ■          # End execution
+▶          # Start execution
+(・_・)    # State check
+⏳         # Time progress
+(｀・ω・´) # Request NORMAL transition
+(^^)       # Affirmation
+■          # End execution
 
 - Each command = 1 step  
 - Commands obey state constraints; invalid commands are treated as no-op or warning

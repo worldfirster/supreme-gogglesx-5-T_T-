@@ -1,0 +1,88 @@
+本文書は HFA/ASMrc を用いた
+思考実験的解釈モデルであり、
+仕様の一部ではない。
+
+HFA/ASMrc-QMD（Qi Men Dun Jia Model）定義案
+0. 位置付け（最重要）
+HFA/ASMrc-QMD は、
+HFA/ASMrc に基づき、
+時間・配置・選択を状態遷移として再解釈する思考実験モデルである。
+本モデルは占術の実用性を目的とせず、
+意味構造の対応関係を観測・記述するためのものである。
+これで一気に「怪しさ」を排除できる。
+1. 基本対応関係（コア）
+奇門遁甲を 意味構造だけ 抜き出して、こう対応させる：
+HFA/ASMrc-QMD における意味
+奇門遁甲
+時（局・刻）
+Time（遷移順序・文脈）
+方位・宮
+State（配置された意味空間）
+門
+Transition Constraint（遷移条件）
+星
+State Modifier（状態特性）
+神
+Effect Bias（副作用傾向）
+占断
+Observe（意味の観測）
+👉 未来予測はしない
+👉 結果の良し悪しも定義しない
+2. QMD 状態定義
+2.1 Q-State
+
+Text
+Q-State ::= {
+  base_state      : HFA_State,
+  time_context    : Q-Time,
+  position        : Q-Position,
+  modifiers       : Q-Modifier*
+}
+base_state：ZERO / NORMAL / OVER
+time_context：意味付けされた時間
+position：配置（抽象）
+modifiers：星・門・神に相当する意味特性
+3. Q-Transition（重要）
+QMD における遷移は：
+「行動の可否」ではなく
+意味的成立度の変化
+として扱う。
+
+Text
+Q-Transition ::= Q-State → Q-State'
+成立しない遷移 → ZERO へ意味保留
+成立度が低下 → OVER 的意味圧縮
+成立度が安定 → NORMAL 維持
+4. ZERO の役割（ここが美しい）
+QMD における ZERO は：
+吉凶が未確定
+解釈が分岐する
+観測者依存が強い
+つまり：
+奇門遁甲における
+「判断を保留すべき局面」
+＝ Compatibility ZERO
+v0.2 の ZERO 拡張と完全一致。
+5. 観測（Q-Observe）
+QMD の出力は：
+結論
+判断
+行動指示
+ではなく、
+「この遷移は、どの意味特性を帯びているか」
+という 意味ログ。
+
+Text
+Q-Observe ::= Semantic Annotation
+6. 非目標（明示）
+HFA/ASMrc-QMD は以下を目的としない：
+占いとしての的中
+行動の最適化
+未来予測
+判断の正当化
+
+7. まとめ（思想的に）
+HFA/ASMrc は
+「意味が確定する前の地面」を定義した。
+QMD は
+「意味が配置された時、人はどう読むか」を観測する。

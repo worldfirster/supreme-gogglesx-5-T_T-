@@ -1,12 +1,12 @@
-HFASM Specification v0.1
+HFA/ASMrc Specification v0.1
 Overview
-HFArc + HFASM (Hybrid Face Assembly) is an experimental programming language specification.
+HFA/ASMrc (Hybrid Face Assembly) is an experimental programming language specification.
 The language is state-driven and explicitly defines a ZERO state,
 where capability exists but is intentionally not exercised.
-HFArc + HFASM focuses on semantics, state transitions, and minimal expressive units,
+HFA/ASMrc focuses on semantics, state transitions, and minimal expressive units,
 rather than implementation complexity.
 1. 基本定義（概要 / Overview）
-HFArc + HFASM は
+HFA/ASMrc は
 顔文字・記号・時間・状態を最小要素とする
 状態駆動型・意味論アセンブリ言語である。
 命令は顔文字または記号で表現される
@@ -21,14 +21,14 @@ HFArc + HFASM は
 命令（Instruction）
 顔文字または記号による操作
 実行者（Executor）
-HFASMを動かす存在（人・環境）
+HFA/ASMrcを動かす存在（人・環境）
 ゼロスペック（ZERO）
 能力を持つが、意図として行使しない状態
 3. 形式定義（Formal Definition）
 3.1 プログラム全体構造
 コードをコピーする
 
-HFASM-Program ::= Header? StateDecl* CodeBlock+
+HFA/ASMrc-Program ::= Header? StateDecl* CodeBlock+
 Header：メタ情報（任意）
 StateDecl：状態宣言
 CodeBlock：命令列（必須）
@@ -147,6 +147,6 @@ n単位の時間進行
 (^^)
 ■
 設計注記
-HFASM は
+HFA/ASMrc は
 複雑なテンプレートや網羅的仕様を避け、
 最小定義と状態遷移による意味表現 を優先する。
